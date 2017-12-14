@@ -352,7 +352,7 @@ baidu_analytics: 54fab7a8d86da470f69ae88485845c02
 
 # Disqus
 disqus:
-  enable: true
+  enable: false 
   shortname: pandll
   count: true
 
@@ -387,8 +387,7 @@ valine:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
-
+livere_uid: MTAyMC8zMjM5OS84OTYw 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 # You can get your Github ID from https://api.github.com/users/<Github username>
