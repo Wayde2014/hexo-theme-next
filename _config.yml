@@ -87,13 +87,17 @@ menu:
   home: / || home
   about: /about/ || user
   categories: /categories/ || th
-  archives: /archives/ || archive
   tags: /tags/ || tags
+  collection: /categories/collection/ || star
+  archives: /archives/ || archive
+  #photo: /photo/ || camera
+  #movie: /movie/ || video-camera
+  #sentence: /sentence/ || video-camera
+  #music: /music/ || music 
+  #book: /book/ || book 
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
-  photo: /photo/ || camera
-  movie: /movie/ || video-camera
 
 # Enable/Disable menu icons.
 menu_icons:

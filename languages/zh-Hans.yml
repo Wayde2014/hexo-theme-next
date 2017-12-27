@@ -18,6 +18,10 @@ menu:
   commonweal: 公益404
   photo: 图片
   movie: 电影
+  book: 书籍
+  sentence: 佳句
+  music: 音乐
+  collection: 个人收藏
 
 sidebar:
   overview: 站点概览
