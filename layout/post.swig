@@ -7,6 +7,7 @@
 
 {% block page_class %}page-post-detail{% endblock %}
 
+<%- post.breadcrumb.html %>
 
 {% block content %}
 

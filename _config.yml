@@ -27,7 +27,7 @@ favicon:
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Pandll,Wayde"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -88,7 +88,7 @@ menu:
   about: /about/ || user
   categories: /categories/ || th
   tags: /tags/ || tags
-  collection: /categories/collection/ || star
+  collection: /collection/ || star
   archives: /archives/ || archive
   #photo: /photo/ || camera
   #movie: /movie/ || video-camera
