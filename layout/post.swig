@@ -7,8 +7,6 @@
 
 {% block page_class %}page-post-detail{% endblock %}
 
-<%- post.breadcrumb.html %>
-
 {% block content %}
 
   <div id="posts" class="posts-expand">
