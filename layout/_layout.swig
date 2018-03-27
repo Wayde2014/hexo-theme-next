@@ -12,6 +12,15 @@
   {% include '_third-party/analytics/index.swig' %}
 </head>
 
+<script src="{{ url_for(theme.js) }}/prettify.js"></script>
+<script src="{{ url_for(theme.js) }}/jquery.min.js"></script>
+<script type="text/javascript">
+$(window).load(function(){
+   $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto;');
+   prettyPrint();
+ })
+</script>
+
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang || page.language || config.language }}">
 
   {% set container_class = "container " %}

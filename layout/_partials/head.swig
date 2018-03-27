@@ -156,3 +156,5 @@
 {% endif %}
 
 {% include 'head/custom-head.swig' %}
+
+<link rel="stylesheet" href="{{ url_for(theme.css) }}/tomorrow-night.min.css" media="screen" type="text/css">
