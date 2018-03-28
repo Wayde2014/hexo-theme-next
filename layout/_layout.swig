@@ -15,8 +15,8 @@
 <script src="{{ url_for(theme.js) }}/prettify.js"></script>
 <script src="{{ url_for(theme.js) }}/jquery.min.js"></script>
 <script type="text/javascript">
-$(window).load(function(){
-   $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto;');
+$(document).ready(function(){
+ $('pre').addClass('prettyprint linenums');
    prettyPrint();
  })
 </script>
